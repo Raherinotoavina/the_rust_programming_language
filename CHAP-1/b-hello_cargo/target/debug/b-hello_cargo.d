@@ -1,0 +1,1 @@
+/home/safidy/Public/Fianarana/Programing_Langage/Rust/Documentation/CHAP-1/b-hello_cargo/target/debug/b-hello_cargo: /home/safidy/Public/Fianarana/Programing_Langage/Rust/Documentation/CHAP-1/b-hello_cargo/src/main.rs

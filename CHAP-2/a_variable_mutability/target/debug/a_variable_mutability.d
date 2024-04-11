@@ -1,0 +1,1 @@
+/home/safidy/Public/Fianarana/Programing_Langage/Rust/Documentation/CHAP-2/a_variable_mutability/target/debug/a_variable_mutability: /home/safidy/Public/Fianarana/Programing_Langage/Rust/Documentation/CHAP-2/a_variable_mutability/src/main.rs

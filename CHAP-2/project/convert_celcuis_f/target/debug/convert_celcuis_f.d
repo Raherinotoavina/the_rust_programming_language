@@ -1,0 +1,1 @@
+/home/safidy/Public/Fianarana/Programing_Langage/Rust/Documentation/CHAP-2/project/convert_celcuis_f/target/debug/convert_celcuis_f: /home/safidy/Public/Fianarana/Programing_Langage/Rust/Documentation/CHAP-2/project/convert_celcuis_f/src/main.rs

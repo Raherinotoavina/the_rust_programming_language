@@ -1,0 +1,21 @@
+//// VARIABLES
+- By default variable are immutable.
+
+//// WHAT IS IMMUTABILITY
+- When a variable is assigned to a value, it's can't be change anywhere.
+
+//// HOW TO CHANGE VARIABLE TO MUTABLE
+- Command : let mut x = 5;
+
+//// WHERE IS THE CONSTANT KEYWORD
+- Command : const CONSTANTE:i32 = 5;
+- We can not use the "mut" keyword in constant
+- Always immutable
+- We need to annotated the type of value when we use "const"
+- For convention constant is ALL UPPERCASE
+
+//// WHAT IS SHADOWING ?
+- In rust we can declare a variable with the same name
+
+//// CAN WE DON'T USE LET OR CONST TO DECLARE VARIABLE ?
+- NO!!!!!!!!!

@@ -1,0 +1,1 @@
+/home/safidy/Public/Fianarana/Programing_Langage/Rust/Documentation/CHAP-2/c_function/target/debug/c_function: /home/safidy/Public/Fianarana/Programing_Langage/Rust/Documentation/CHAP-2/c_function/src/main.rs

@@ -1,0 +1,48 @@
+//// DATA TYPES
+- The 2 differents types of data types : scalar and compoud.
+- Rust is a statically typed language.
+- In case if many type are possible when we parse a string to integer.We need to use type annotation.
+
+//// WHAT IS STATICALLY TYPED LANGUAGE
+- It must know the types of all variable at compile time
+
+//// WHAT IS TYPE ANOTATION
+- Command : let x:i32 = "42".parse();
+
+/////////////////////////// WHAT IS A SCALAR TYPE //////////////////////////////
+- It's represent a single value : integer, float, bool, char
+
+//////////////// INTEGER TYPE IN RUST
+- It's has a signed or unsigned type : i32 (signed) ,u32 (unsigned)
+//// SIGNED TYPE
+- It can be negative or positive : can store -2^(n-1) to 2^(n-1)
+//// UNSIGNED TYPE
+- It should always positive : 0 to 2^(n-1)
+
+//////////////// FLOATING TYPE IN RUST
+- All floating number is automatically signed
+- Command : f32 or f64
+- By default rust use f64 type for more precision 
+
+//////////////// BOOLEAN TYPE
+- Can be true or false
+- Command : let b:bool = true;
+
+//////////////// CHAR TYPE
+- We specify char literal in single quote
+- Can be a : Chinese, Japan, Korean characters and Emoji
+
+/////////////////////////// WHAT IS A COMPOUNDS TYPE //////////////////////////////
+- It can group multiple value into one type
+- Rust has 2 compounds types : tuples, arrays
+
+//////////////// TUPLE TYPE
+- Tuple have a fixed length, they can not grow or shrink
+- Can store multiple type
+- Command : let tup:(i32,f64,char) = (32,2.5,'b');
+- Destructuring : let (integer,float,charVar) = tup;
+
+/////////////// ARRAY TYPE
+- Can only store one type of differents value 
+- Array have fixed lenght
+- Command : let arr:[i32; number_of_element] = [2,3,5]

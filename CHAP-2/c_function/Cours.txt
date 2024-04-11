@@ -1,0 +1,19 @@
+///////////////// FUNCTION ///////////////
+- The main function is the most important function in rust
+- We use "snace_case" to declare a function in rust
+- We can declare function somewhere we want (inside, before, after main)
+- Command : fn to declare a function
+- We define a parameter between the () : fn a (x:i32) {}
+- A parameter must have a type
+
+///////////////// DIFF BETW EXPR AND STATEMENT
+////// STATEMENT
+- Statements are instructions that perform some action and do not return a value
+- EXEMPLE : - Creating and assigning a variable
+            - Defining func
+            
+////// EXPRESSION
+- Expressions evaluate to a resultant value. Let’s look at some examples
+- EXEMPLE : - All ending code
+            - Function
+            - Macro

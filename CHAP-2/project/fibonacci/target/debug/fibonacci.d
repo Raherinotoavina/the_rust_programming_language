@@ -1,0 +1,1 @@
+/home/safidy/Public/Fianarana/Programing_Langage/Rust/Documentation/CHAP-2/project/fibonacci/target/debug/fibonacci: /home/safidy/Public/Fianarana/Programing_Langage/Rust/Documentation/CHAP-2/project/fibonacci/src/main.rs

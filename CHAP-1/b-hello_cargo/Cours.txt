@@ -1,0 +1,24 @@
+////// WHAT IS CARGO ?
+- Cargo is Rust’s build system and package manager.
+
+////// WHY WE NEED THAT ?
+- Build our code.
+- Downloading the libraries your code depends on.
+- We call the libraries that your code needs dependencies.
+
+////// CREATING PROJECT WITH CARGO
+- Command : cargo new name_of_your_project
+
+////// BUILDING A PROJECT
+- Command : cargo build
+- This create an executable file in ./target/debug/b_hello_cargo
+- To execute the program : ./target/debug/b_hello_cargo
+
+////// RUN AND BUILD DIRECTLY A PROJECT
+- Command : cargo run
+
+///// TO COMPILE WITHOUT CREATING AN EXECUTABLE
+- Command : cargo check
+
+///// WHEN OUR CODE IS FINISHED AND WE WANT TO BUILD THIS WITH OPTIMIZATION
+- Command : cargo build --release
