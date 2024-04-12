@@ -1,0 +1,36 @@
+# OWNERSHIP
+## Definition
+- Set of rules that govern how rust Program manage memory.
+- Memory is managed through a system of ownership with a set of rules that compiler check.
+## Properties
+- If any of rules is violated, the program won't compile.
+## Rules
+- Each value in rust has a owner.
+- There can only be one owner at the same time.
+- When the owner goes out of scope, the value will be dropped.
+
+# STACK AND HEAP
+- Both of them is part of available memory.
+- Stack and heap is structured in different way.
+## Stack
+- Store value in the order it gets them and removes the values in the opposite order.
+- Last in first out.
+- All data stored on the stack must have a known, fixed size.
+### How stack work :
+- Pushing in the stack is more faster than allocating on the heap :
+    . Allocator never has to search a place to store a data.
+    . That location is always on the top of the stack.
+## Heap
+- Data with an unknown size at compile time or a size that might change must be stored on the heap instead.
+- Less organized, when you put data on the heap you request a certain amount of memory.
+### How heap work :
+- The memory allocator find an empty spot in the heap that is big enough.
+    . Marks it as being in use
+    . And return a pointer, which is the address of that location.
+    . Process name => ALLOCATING ON THE HEAP ()  
+## Accessing data
+- Accessing data on the heap is more slower than accessing data on the stack :
+    . You have to follow a pointer to get them
+## Notable :
+When your code calls a function, the values passed into the function (including, potentially, pointers to data on the heap) 
+and the function’s local variables get pushed onto the stack. When the function is over, those values get popped off the stack.
