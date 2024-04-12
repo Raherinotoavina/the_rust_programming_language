@@ -1,0 +1,34 @@
+# String type
+## Definition
+- Stored on the heap.
+
+## Type
+### Literal chaine
+- Command : let a = "Hello";
+- This is a literal string.
+- This is immutable never change.
+- Stored on the stack.
+- Nous connaissons le contenue au moment de la compilation.
+### String type
+- Command : let a = String::from("Hello");
+- Capable de stocker une quantite de texte qui nous est inconnu au moment de la compilation.
+- This type of string can be mutable.
+- Stored on the heap.
+- Nous ne connaissons pas le contenue au moment de la compilation.
+
+## Bon a savoir
+let s = String::from("Hello");
+let a = s;
+=> Cette code est une erreur car les 2 variables essayes d'acceder au meme 
+pointeur dans le "HEAP", donc quand les scoops des deux variables sont passees,
+les 2 variables essayent de supprimer le meme pointeur "ERREUR GRATUITE". 
+=> C'est pour cela que rust supprime "s" est pointe "a" dans le pointeur desirer
+pour eviter cette erreur.
+=> Si on a vraiment besoin de copier la valeur, on doit utiliser "String::from("Hello").clone()"
+but it is very exepensive.
+## Pour les types stocker dans le "stack"
+=> Types such as integers that have a known size at compile time are stored entirely on the stack, 
+so copies of the actual values are quick to make then rust copied it. 
+
+## Ownership in function
+- Passer une variable à une fonction déplacera ou copiera tout comme l'affectation.
