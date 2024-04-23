@@ -9,3 +9,39 @@ related values that make up a meaningful group.
 - A struct can be store multiple variable with different type.
 - In struct you'll name each peace of data so it's clear what the value mean.
 - You don’t have to rely on the order of the data to specify or access the values of an instance.
+
+## Utilisation
+- To define a struct we need to use the :
+    => keyword "struct Name_of_Struct {all fields separated by comma}"
+- Key: value pairs, where the keys are the names of the fields and 
+the values are the data we want to store in those fields
+- We don't have to specify the fields in same order in which specified in the initialisation of struct.
+- we can construct a new instance of the struct as the last expression in 
+the function body to implicitly return that new instance.
+
+## How to get value from struct
+- We use dot notation :
+    => To access a field in a struct we use the "variable.name_of_field".
+
+## What if the instance if mutable
+- If the instance is mutable so you can change the value by doing that :
+    => user.name = "Koto"
+
+## Creating instance of struct from other instance of struct
+- let user1:User = User {}
+- let user2:User = User {..user1}
+
+## Tuple struct
+- It's a struct like a tuple 
+- Command : struct Color (u64, u64, u64)
+- You can destruct a tuple struct like a tuple
+    => let (a, b) = struct_tuple;
+- You can access value like this s.index;
+
+## Unit-Like Structs
+- Structs that don't have any fields
+- Useful when you need to implement a trait on some type but don’t have any 
+data that you want to store in the type itself.
+
+## How to make fields a references
+- We need to have a "lifetimes" not for now !!!!!!!!!!
