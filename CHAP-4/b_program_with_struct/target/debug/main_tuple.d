@@ -1,0 +1,1 @@
+/home/safidy/Public/Fianarana/Programing_Langage/Rust/Documentation/CHAP-4/b_program_with_struct/target/debug/main_tuple: /home/safidy/Public/Fianarana/Programing_Langage/Rust/Documentation/CHAP-4/b_program_with_struct/src/bin/main_tuple.rs
