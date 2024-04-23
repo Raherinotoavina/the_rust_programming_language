@@ -1,0 +1,1 @@
+/home/safidy/Public/Fianarana/Programing_Langage/Rust/Documentation/CHAP-4/c_methods_in_struct/target/debug/c_methods_in_struct: /home/safidy/Public/Fianarana/Programing_Langage/Rust/Documentation/CHAP-4/c_methods_in_struct/src/main.rs

@@ -1,0 +1,18 @@
+# Methods in Struct
+- It's similare to function.
+- We declare them with the fn keywords and a name.
+- Can have parameter and a return value.
+- Contrairement aux fonctions, les méthodes sont définies dans le contexte d'une structure
+(or enum, or a trait of object).
+- THEIR FIRST PARAMETER IS ALWAYS "SELF" 
+    => Represent the instance of the struct the method is being called on.
+
+## Good to know
+- All function defined within an impl block are called associated functions because they're
+with the type named after the impl.
+- We can defined associated function that don't have self as their first parameter.
+    => "THUS ARE NOT METHODS"
+    => Because they don't need an instance of the type to work with.
+    => For example String::from
+- Associated functions that aren’t methods are often used for constructors that will return a new instance of the struct.
+- To call this associated function we use the following command "Object::method(parameter)".
