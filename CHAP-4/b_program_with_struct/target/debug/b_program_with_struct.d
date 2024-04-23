@@ -1,0 +1,1 @@
+/home/safidy/Public/Fianarana/Programing_Langage/Rust/Documentation/CHAP-4/b_program_with_struct/target/debug/b_program_with_struct: /home/safidy/Public/Fianarana/Programing_Langage/Rust/Documentation/CHAP-4/b_program_with_struct/src/main.rs
