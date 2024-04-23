@@ -1,0 +1,11 @@
+# STRUCT
+## What is struct
+- To structure related data.
+- Custom data type that let's you package together and name multiple. 
+related values that make up a meaningful group.
+- Like an object’s data attributes.
+
+## Difference between tuple
+- A struct can be store multiple variable with different type.
+- In struct you'll name each peace of data so it's clear what the value mean.
+- You don’t have to rely on the order of the data to specify or access the values of an instance.
