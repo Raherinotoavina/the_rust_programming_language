@@ -1,0 +1,24 @@
+# SLICE TYPE
+## Definition
+- Let you reference a contiguous sequence of elements in a collection rather than the whole collection.
+- A slice is a kind of reference, so it does not have ownership.
+
+## String slice
+- A reference to a part of a String
+    => &s[startIndex..endIndex]
+- If you start with the index 0, you can not write it 
+    => &s[..4]
+- It's also like this if you end at the end of string
+    => &s[5..]
+- If you would to drop all the string
+    => &s[..]
+
+## GOOD TO KNOW
+- To convert a string to an array of byte
+    => String::new("Hello").as_byte();
+- To iter a collection
+    => collection.iter()
+- To wrap the result of iter and return each element as part of tuple (index, reference to each element)
+    => collection.iter().collection()
+- To clear a string
+    => String::new("Hello").clear()
